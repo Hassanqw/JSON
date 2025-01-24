@@ -1,0 +1,7 @@
+{
+"id" : 1,
+"Name" : "Hassan",
+"Age" : 17,
+"Address" : { "Karachi" : "Manzoor colony" , "Lahore" : "Model"} ,
+"Country" : ["Pakistan" , "India" ,"USA" ,"Dubai" ]
+}

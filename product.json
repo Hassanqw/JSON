@@ -1,0 +1,20 @@
+{
+    "Watches" : [
+        {"id" : 1 , "Customer Name" :"Hassan" , "Watch Name" :"Rolex","Price" : 4000 }
+         ,
+         {"id" : 2 , "Customer Name" :"Kinza" , "Watch Name" :"Rolex" ,"Price" : 4000}
+          ,
+          {"id" : 3 , "Customer Name" :"Aslam" , "Watch Name" :"Rolex" ,"Price" : 4000} 
+    ],
+    "Perfume" : [
+        {"id" :4 , "Customer Name" :"Hamza" , "Watch Name" :"Rolex","Price" : 4000 }
+        ,
+        {"id" : 5 , "Customer Name" :"Umair" , "Watch Name" :"Rolex","Price" : 4000 }
+        ,
+        {"id" : 6, "Customer Name" :"Umar" , "Watch Name" :"Rolex","Price" : 4000 }
+    ]
+
+
+
+
+}

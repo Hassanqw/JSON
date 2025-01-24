@@ -1,0 +1,7 @@
+[
+    {"id" : 1 , "Customer Name" :"Hassan" , "Watch Name" :"Rolex","Price" : 46000} 
+    ,
+    {"id" : 2 , "Customer Name" :"Ahmed" , "Watch Name" :"Rolex","Price" : 4000}
+    ,
+    {"id" : 3 , "Customer Name" :"Raza" , "Watch Name" :"Rolex","Price" : 4000}
+]
