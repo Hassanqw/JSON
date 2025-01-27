@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="/array.json"></script>
+      
+    <script>
+        // fetch("https://fakestoreapi.com/products")
+        
+        // .then(data=>data.json())
+        // .then(data=>{for(let i in data){
+        //     let b = `ID:- ${data[i].id}<br> title:-${data[i].title}<br> price:-${data[i].price}<br> description:-${data[i].description}<br>category:-${data[i].category}<br> rate:-${data[i].rating.rate}<br> count:-${data[i].rating.count}<br>`
+        //     document.write(b)
+        // }
+
+        // })
+
+fetch("array.json")
+.then(data=>data.json())
+.then(data=>{
+    for(let i in data){
+        let b =`id:-${data[i].id}<br> Customer Name${data[i].CustomerName}<Br> WatchName:-${data[i].WatchName}<br> Price:-${data[i].Price}<br>`
+        document.write(b)
+    }
+})
+
+
+
+        // fetch('array.json')
+        //     .then(response => response.json()) // JSON data ko parse karna
+        //     .then(array => {
+        //         // Loop through each item in the JSON array
+        //         for (let i = 0; i < array.length; i++) {
+        //             let b = `ID: ${array[i].id}<br>
+        //                      Customer Name: ${array[i]["Customer Name"]}<br>
+        //                      Watch Name: ${array[i]["Watch Name"]}<br>
+        //                      Price: ${array[i].Price}<br><br>`;
+                             
+        //             document.write(b);  // Write each item to the document
+        //         }
+        //     })
+        //     .catch(error => console.error('Error loading the JSON file:', error));
+
+    </script>
+</body>
+</html>

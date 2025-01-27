@@ -1,7 +1,7 @@
-[
-    {"id" : 1 , "Customer Name" :"Hassan" , "Watch Name" :"Rolex","Price" : 46000} 
+ [
+    {"id" : 1 , "CustomerName" :"Hassan" , "WatchName" :"Rolex","Price" : 46000} 
     ,
-    {"id" : 2 , "Customer Name" :"Ahmed" , "Watch Name" :"Rolex","Price" : 4000}
+    {"id" : 2 , "CustomerName" :"Ahmed" , "WatchName" :"Rolex","Price" : 4000}
     ,
-    {"id" : 3 , "Customer Name" :"Raza" , "Watch Name" :"Rolex","Price" : 4000}
+    {"id" : 3 , "CustomerName" :"Raza" , "WatchName" :"Rolex","Price" : 4000}
 ]
