@@ -1,0 +1,20 @@
+{
+    "J" : [
+        {"id" : 1 ,  "Name" :"Rolex1","Price" : 4000 ,"img" : "https://cdn.shopify.com/s/files/1/0003/5815/4293/files/7545-14.jpg?v=1737125538", "detail" : "Weddings, parties, daily wear, or a casual outing – yeh perfume har mood aur occasion ke liye suitable hai."}
+         ,
+         {"id" : 2 ,  "Name" :"Rolex2" ,"Price" : 4000 , "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAEee6KQ5y9JNlOQDrf9CJ4PZI_k38SILVvQ&s", "detail" : "Good Brnad Watches"}
+          ,
+          {"id" : 3 , "Name" :"Rolex3" ,"Price" : 4000,"img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMGJS1TKyfbB1RkMz62-d4mdrm5Ten7KVJJg&s", "detail" : "Good Brnad Watches"}  
+    ],
+    "Khaddi" : [
+        {"id" :4 ,  "WatchName" :"Rolex4","Price" : 4000 ,"img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMGJS1TKyfbB1RkMz62-d4mdrm5Ten7KVJJg&s", "detail" : "Good Perfume Brnad"}
+        ,
+        {"id" : 5 ,  "WatchName" :"Rolex5","Price" : 4000,"img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW39ONeuDoMXY5IPSR8RA-TcUOQxFrP2hSfA&s", "detail" : "Good Perfume Brnad" }
+        ,
+        {"id" : 6, "WatchName" :"Rolex6","Price" : 4000,"img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7lOiHcnlYesai5nMJ3mUKG0XG54Xtsa4pDA&s", "detail" : "Good Perfume Brnad" }
+    ]
+
+
+
+
+}
