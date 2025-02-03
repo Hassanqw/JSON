@@ -17,10 +17,10 @@
                     
                 </select>
                 <div class="card mt-5" >
-                    <img class="card-img-top" src="/address-card-svgrepo-com.svg" alt="Title" />
+                    <img class="card-img-top" src="/address-card-svgrepo-com.svg" alt="Title" id="Jimage">
                     <div class="card-body">
-                        <h4 class="card-title">Title</h4>
-                        <p class="card-text">Text</p>
+                        <h4 class="card-title" id="Jtitle">Title</h4>
+                        <p class="card-text" id="Jtext">Text</p>
                     </div>
                 </div>
                 
@@ -34,10 +34,10 @@
                         
                     </select>
                     <div class="card mt-5">
-                        <img class="card-img-top" src="/address-card-svgrepo-com.svg" alt="Title" />
+                        <img class="card-img-top" src="/address-card-svgrepo-com.svg" alt="Title" id="kaddiimage">
                         <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
+                            <h4 class="card-title" id="kaddititle">Title</h4>
+                            <p class="card-text" id="kadditext">Text</p>
                         </div>
                     </div>
                     
@@ -73,7 +73,35 @@
          })
          $("#JproductsName").change(function(){
             let productID = $(this).val();
-            console.log(productID);
+            console.log(productID); 
+            let Product= response.J.find(pr=>pr.id==productID);
+            console.log(Product)
+            if(Product){
+                $("#Jimage").attr("src" ,Product.img)
+                $("#Jtitle").text(Product.Name)
+                $("#Jtext").text(Product.Price)
+            }
+            else{
+                $("#Jimage").attr("src" ,"/address-card-svgrepo-com.svg")
+                $("#Jtitle").text("Title")
+                $("#Jtext").text("Text")
+            }
+         })
+         $("#KaddiProductName").change(function(){
+            let productID = $(this).val();
+            console.log(productID); 
+            let Product= response.J.find(pr=>pr.id==productID);
+            console.log(Product)
+            if(Product){
+                $("#kaddiimage").attr("src" ,Product.img)
+                $("#kaddititle").text(Product.Name)
+                $("#kadditext").text(Product.Price)
+            }
+            else{
+                $("#kaddiimage").attr("src" ,"/address-card-svgrepo-com.svg")
+                $("#kaddititle").text("Title")
+                $("#kadditext").text("Text")
+            }
          })
                 }
 
